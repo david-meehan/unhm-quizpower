@@ -117,6 +117,8 @@ function parseTopics($topics) {
 
 //========== Database functions ================
 
+require_once("connect.php");
+
 /*
 * Gets all questions for $course using the WHERE clause coded into $topics
 * @param $topics string with topic names OR-ed together.
